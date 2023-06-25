@@ -1,0 +1,33 @@
+:root {
+  --C1: #ffffff;
+  --C2: #cccccc;
+  --C3: #5b5b5b;
+  --C4: #424242;
+  --C5: #212121;
+  --C6: #000000;
+  --B1: #030423;
+  --B2: #003366;
+  --B3: #0047ab;
+  --DG1: linear-gradient(180deg, #003366 0%, #030423 100%);
+}
+
+html {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+.container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}

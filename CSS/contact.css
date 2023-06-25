@@ -1,0 +1,148 @@
+.contact-request h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 0px 200px;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.contact-container h2 {
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(0, 51, 102, 0.25);
+  font-weight: 900;
+  font-size: 2.25rem;
+  align-self: center;
+}
+
+.contact-form {
+  background-color: var(--B2);
+  border-radius: 50px;
+  display: grid;
+  padding: 32px 80px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 100px;
+}
+
+.contact-form label {
+  margin-bottom: 16px;
+  color: var(--C1);
+  font-size: 1rem;
+  display: block;
+  grid-column: 1;
+}
+
+.contact-form input {
+  margin-bottom: 28px;
+  border-color: var(--C1);
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.05);
+  min-height: 32px;
+  display: block;
+  grid-column: 1;
+  width: 100%;
+}
+
+.contact-form textarea {
+  border-color: var(--C1);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  height: 180px;
+  width: 100%;
+  grid-column: 2;
+  grid-row: 2/5;
+}
+
+.small {
+  color: var(--C1);
+  font-size: 0.625rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--C2);
+  box-shadow: 0 0 4px var(--C2);
+}
+
+label.message {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.send-contact {
+  display: flex;
+  gap: 8px;
+  border-radius: 20px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  grid-column: 2;
+  grid-row: 6;
+  padding: 10px 20px;
+  justify-self: center;
+}
+
+input.website {
+  margin-bottom: 0px;
+}
+
+.send-contact p {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--B2);
+}
+
+@media (max-width: 1200px) {
+  .contact-container {
+    display: block;
+  }
+  .contact-container h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .contact-form {
+    display: block;
+  }
+  input.website {
+    margin-bottom: 28px;
+  }
+  .send-contact {
+    margin: 28px auto 0px auto;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact-container {
+    margin: 0px 120px 60px 120px;
+  }
+
+  @media (max-width: 700px) {
+    .contact-container {
+      margin: 0px 80px 60px 80px;
+    }
+    .contact-form {
+      padding: 32px 40px;
+    }
+    .contact-request h1 {
+      font-size: 3.5rem;
+      margin-bottom: 40px;
+    }
+    .contact-request h2 {
+      font-size: 1.5rem;
+      margin-bottom: 32px;
+    }
+  }
+  @media (max-width: 500px) {
+    .contact-container {
+      margin: 0px 40px 60px 40px;
+    }
+  }
+}

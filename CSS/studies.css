@@ -1,0 +1,100 @@
+.case-studies h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.images li {
+  list-style: none;
+}
+
+.images .image-container {
+  position: relative;
+}
+
+.images img {
+  max-width: 380px;
+  border-radius: 30px;
+  border: 2px solid var(--B1);
+}
+
+.images .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  border-radius: 30px;
+}
+
+.images .overlay.active {
+  opacity: 1;
+}
+
+.images .text {
+  text-align: center;
+  color: var(--C1);
+}
+
+.images .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--C1); /* Cor do texto branco */
+}
+
+.images .category {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--C1); /* Cor do texto branco */
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.contact {
+  display: block;
+  margin: 64px auto 240px auto;
+  border-radius: 100px;
+  padding: 10px 20px;
+  background: var(--DG1);
+  color: var(--C1);
+  max-width: fit-content;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .images img {
+    max-width: 280px;
+    border-radius: 20px;
+    border: 2px solid var(--B1);
+  }
+
+  .images {
+    gap: 20px;
+  }
+
+  .case-studies h1 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+  }
+
+  .images .overlay {
+    border-radius: 20px;
+  }
+  .images .title {
+    font-size: 1.75rem;
+  }
+}

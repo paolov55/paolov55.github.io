@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paolo Vinicios | UI/UX Designer</title>
+  <meta name="description" content="Hi, my name is Paolo Vinicios, and this is my portfolio as a UX/UI Designer">
+  <link rel="stylesheet" href="./CSS/style.min.css">
+  <link rel="shortcut icon" href="./SVG/Favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <a href="#home">
+      <img src="./SVG/Home.svg" alt="">
+      <p>Home</p>
+      <div class="indicator"></div>
+    </a>
+    <a href="#about">
+      <img src="./SVG/About Me.svg" alt="">
+      <p>About Me</p>
+      <div class="indicator"></div>
+    </a>
+    <a href="#case-studies">
+      <img src="./SVG/Case Studies.svg" alt="">
+      <p>Case Studies</p>
+      <div class="indicator"></div>
+    </a>
+    <a href="#projects">
+      <img src="./SVG/Projects.svg" alt="">
+      <p>Projects</p>
+      <div class="indicator"></div>
+    </a>
+  </nav>
+
+  <section id="home" class="home">
+    <h1>Hi, my name is<br>Paolo Vinicios</h1>
+    <p>I’m a <span id="animated-text">UX Designer</span></p>
+    <img src="./Images/Home Photo.png" alt="">
+  </section>
+
+  <section id="about" class="about container">
+    <h1>About Me</h1>
+    <img src="./Images/About Me Photo.png" alt="">
+    <form class="about-form" action="./">
+      <input type="radio" name="menu" value="Who am I" id="story" checked>
+      <label for="story">Who am I</label>
+
+      <input type="radio" name="menu" value="Where I've worked" id="work">
+      <label for="work">Where I've worked</label>
+
+      <input type="radio" name="menu" value="What I've studied" id="study">
+      <label for="study">What I've studied</label>
+
+      <div class="about-text" id="about-story">
+        <p>Hello,</p>
+        <p>My name is Paolo Vinicios and I’m a UI/UX Design. That means I’ll be in charge of making sure your company delivers the best user experience alongside stunning visuals for your clients.</p>
+        <p>Despite being graduated in law school, it was on the UI/UX Design I’ve discovered my true passion. Since then, I’ve been studying and improving myself. I’ve done many courses in the area, which includes a Google certification and I’m currently working on a PhD.</p>
+        <p>I started doing small projects for friends and later on moved for freelancing in many platforms, which led me to be sure this is what I enjoy doing.</p>
+        <p>Right now, I’m looking for opportunities to show my skills, helping companies to improve their results and acquire new experiences.</p>
+      </div>
+
+      <div class="about-text" id="about-work">
+        <h2 class="workplace">CERS</h2>
+        <p class="cargo">Trainee (2020-2021)</p>
+        <ul class="skills">
+          <li>Wordpress</li>
+          <li>Design System</li>
+          <li>Microsoft Office</li>
+        </ul>
+        <p class="cargo">Content Assistant (2021-2022)</p>
+        <ul class="skills">
+          <li>Wordpress</li>
+          <li>Adobe Photoshop</li>
+          <li>Design System</li>
+          <li>UX Design</li>
+          <li>Microsoft Office</li>
+        </ul>
+        <p class="cargo">Content Analyst (2022-today)</p>
+        <ul class="skills bot28">
+          <li>Adobe Photoshop</li>
+          <li>Design System</li>
+          <li>UI/UX Design</li>
+          <li>Microsoft Office</li>
+          <li>Figma</li>
+        </ul>
+        <h2 class="workplace">Freelancer</h2>
+        <p class="cargo">UX/UI Designer (2022-today)</p>
+        <ul class="skills">
+          <li>Design System</li>
+          <li>UI/UX Design</li>
+          <li>Figma & Adobe XD</li>
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="about-text" id="about-study">
+        <div class="col-1">
+          <h2 class="study-type">Courses</h2>
+          <ul class="cursos">
+            <li>Professional UX Design by Google</li>
+            <li>Advanced UI Design by Origamid</li>
+            <li>HTML and CSS for Beginners by Origamid</li>
+            <li>Copywriting by Rock University</li>
+            <li>Wordpress by Rock University</li>
+            <li>UX Design Heuristics by Origamid</li>
+            <li>Basic HTML and CSS by Origamid</li>
+          </ul>
+        </div>
+        <h2 class="study-type col-2">Graduation</h2>
+        <div class="cursos col-2">
+          <p>Universidade Católica de Pernambuco</p>
+          <p>Law School</p>
+        </div>
+        <h2 class="study-type col-2 bot28">Post Graduation</h2>
+        <div class="cursos col-2">
+          <p>Universidade Anhanguera</p>
+          <p>Digital Products Design - UI/UX [ongoing]</p>
+        </div>
+      </div>
+    </form>
+    <a href="#projects">Discover some of my projects</a>
+  </section>
+
+  <section class="case-studies container" id="case-studies">
+    <h1>Case Studies</h1>
+    <ul class="images">
+      <li>
+        <a href="./Klep.html">
+          <div class="image-container">
+            <img src="./Images/Klep - Portfolio 1.jpg" alt="">
+            <div class="overlay">
+              <div class="text">
+                <h2 class="title">Klep</h2>
+                <p class="category">Mobile App</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./LN.html">
+          <div class="image-container">
+            <img src="./Images/LN Makes - Portfolio 1.jpg" alt="">
+            <div class="overlay">
+              <div class="text">
+                <h2 class="title">LN Makes</h2>
+                <p class="category">E-commerce</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="./CTW.html">
+          <div class="image-container">
+            <img src="./Images/CTW - Portfolio 1.jpg" alt="">
+            <div class="overlay">
+              <div class="text">
+                <h2 class="title">ConquerTheWorld</h2>
+                <p class="category">Course Website</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <a href="#contact" class="contact">Contact me for your project</a>
+  </section>
+
+  <section id="projects" class="projects">
+    <h1>Other Projects</h1>
+    <div class="projects-images">
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/Calin.png" alt="Projeto Calin">
+          <div class="project-info">
+            <h2>Calin</h2>
+            <p>Mobile App</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/RecupereTax.png" alt="Projeto RecupereTax">
+          <div class="project-info">
+            <h2>RecupereTax</h2>
+            <p>Landing Page</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/Cade Meu Ônibus.png" alt="Projeto Where's My Bus">
+          <div class="project-info">
+            <h2>Where's My Bus</h2>
+            <p>Mobile App</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/Solar Gain.png" alt="Projeto Solar Gain">
+          <div class="project-info">
+            <h2>Solar Gain</h2>
+            <p>Website</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/The STI USA Group.png" alt="Projeto The STI USA Group">
+          <div class="project-info">
+            <h2>The STI USA Group</h2>
+            <p>Website</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/TikiTracker.png" alt="Projeto TikiTracker">
+          <div class="project-info">
+            <h2>TikiTracker</h2>
+            <p>Tablet App</p>
+          </div>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="project">
+          <img src="./Images/Outros-Projetos/RiddleMeThis.png" alt="Projeto RiddleMeThis">
+          <div class="project-info">
+            <h2>RiddleMeThis</h2>
+            <p>Website</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-request" class="contact-request">
+    <h1>Contact Me</h1>
+    <div class="contact-container">
+      <h2>Ready to achieve new levels with your business?</h2>
+      <form action="" class="contact-form">
+        <label for="name" class="name">Name*</label>
+        <input type="text" id="name" class="name" required>
+        <label for="company" class="company">Company*</label>
+        <input type="text" id="company" class="company" required>
+        <label for="website" class="website">Website <span class="small">(if you already have one)</span></label>
+        <input type="text" id="website" class="website">
+        <label for="message" class="message">Describe your needs*</label>
+        <textarea id="message" class="message" required></textarea>
+        <a href="./" class="send-contact"><img src="./SVG/Send.svg" alt="">
+          <p>Send</p>
+        </a>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social">
+      <a href="https://www.instagram.com/paolo.uidesign/">
+        <img src="./SVG/Instagram.svg" alt="">
+        <p>Instagram</p>
+      </a>
+      <a href="https://www.behance.net/paolovincios">
+        <img src="./SVG/Behance.svg" alt="">
+        <p>Behance</p>
+      </a>
+      <a href="https://www.linkedin.com/in/paolo-vin%C3%ADcios-b92306224/">
+        <img src="./SVG/LinkedIn.svg" alt="">
+        <p>LinkedIn</p>
+      </a>
+      <a href="./">
+        <img src="./SVG/Document.svg" alt="">
+        <p>Download Curriculum</p>
+      </a>
+    </div>
+    <p class="rights">Paolo Vinicios © all rights reserved</p>
+  </footer>
+
+  <script src="home.js"></script>
+  <script src="navbar.js"></script>
+  <script src="studies.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #036;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="4" y="9" width="893" height="893" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.646"/>
+      <feFlood result="flood" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <circle class="cls-1" cx="450" cy="450" r="440"/>
+    <path id="V" class="cls-2" d="M1595.02,439.141L1507.5,704.208l-87.03-265.067h-91.02l124.53,351.088h107.03l124.53-351.088h-90.52Z" transform="translate(-974)"/>
+    <path id="P" class="cls-3" d="M1726.84,328.814q0-64.007-28.12-113.468-28.14-49.46-84.37-77.584-56.265-28.118-137.72-28.125H1208V790.444h165.83V546.052h102.8q83.4,0,139.66-30.065,56.22-30.048,83.4-79.039,27.135-48.96,27.15-108.134h0Zm-262.82,85.343h-90.19V243.471h90.19q47.52,0,70.8,22.305,23.28,22.321,23.28,63.038,0,40.732-23.28,63.038t-70.8,22.305h0Z" transform="translate(-974)"/>
+  </g>
+</svg>
