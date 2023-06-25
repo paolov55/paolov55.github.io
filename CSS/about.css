@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 160px;
+  max-width: fit-content;
 }
 
 .about img {
@@ -13,12 +14,6 @@
   text-align: center;
   grid-column: 1/-1;
   margin-bottom: 32px;
-}
-
-.about-menu {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 36px;
 }
 
 .about-form label {
@@ -127,6 +122,7 @@ h2 {
 
 .col-2 {
   grid-column: 2;
+  margin-left: 40px;
 }
 
 .about-text {
@@ -168,6 +164,10 @@ h2 {
   .study-type {
     margin-top: 36px;
   }
+
+  .col-2 {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -177,5 +177,11 @@ h2 {
   .about-form label:nth-of-type(1)::after {
     content: "";
     display: none;
+  }
+  .about-form label {
+    display: block;
+    max-width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
