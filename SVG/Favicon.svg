@@ -6,12 +6,14 @@
         filter: url(#filter);
       }
 
-      .cls-2 {
-        fill: #036;
-      }
-
       .cls-2, .cls-3 {
         fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 4px;
       }
     </style>
     <filter id="filter" x="4" y="9" width="893" height="893" filterUnits="userSpaceOnUse">
@@ -24,7 +26,15 @@
   </defs>
   <g id="Artboard_1" data-name="Artboard 1">
     <circle class="cls-1" cx="450" cy="450" r="440"/>
-    <path id="V" class="cls-2" d="M1595.02,439.141L1507.5,704.208l-87.03-265.067h-91.02l124.53,351.088h107.03l124.53-351.088h-90.52Z" transform="translate(-974)"/>
-    <path id="P" class="cls-3" d="M1726.84,328.814q0-64.007-28.12-113.468-28.14-49.46-84.37-77.584-56.265-28.118-137.72-28.125H1208V790.444h165.83V546.052h102.8q83.4,0,139.66-30.065,56.22-30.048,83.4-79.039,27.135-48.96,27.15-108.134h0Zm-262.82,85.343h-90.19V243.471h90.19q47.52,0,70.8,22.305,23.28,22.321,23.28,63.038,0,40.732-23.28,63.038t-70.8,22.305h0Z" transform="translate(-974)"/>
+    <path id="P" class="cls-2" d="M763.843,328.814q0-64.007-28.124-113.468-28.14-49.46-84.374-77.584-56.256-28.118-137.713-28.125H245V790.444H410.832V546.052h102.8q83.4,0,139.653-30.065,56.234-30.048,83.4-79.039,27.14-48.96,27.154-108.134h0ZM501.025,414.157H410.832V243.471h90.193q47.505,0,70.8,22.305Q595.1,288.1,595.1,328.814q0,40.732-23.275,63.038t-70.8,22.305h0Z"/>
+    <path class="cls-3" d="M215,716H446v86H215V716Z"/>
+    <path class="cls-3" d="M199,548H430v86H199V548Z"/>
+    <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-3" d="M199,382H851v86H199V382Z"/>
+    <path id="Rectangle_1_copy_2" data-name="Rectangle 1 copy 2" class="cls-3" d="M199,218H851v86H199V218Z"/>
+    <path id="Rectangle_1_copy_3" data-name="Rectangle 1 copy 3" class="cls-3" d="M198,61H850v86H198V61Z"/>
+    <path class="cls-3" d="M211,74H326V823H211V74Z"/>
+    <path id="Rectangle_1_copy_4" data-name="Rectangle 1 copy 4" class="cls-3" d="M410,76h79V825H410V76Z"/>
+    <path id="Rectangle_1_copy_5" data-name="Rectangle 1 copy 5" class="cls-3" d="M571,74h79V823H571V74Z"/>
+    <path id="Rectangle_1_copy_6" data-name="Rectangle 1 copy 6" class="cls-3" d="M730,76h79V825H730V76Z"/>
   </g>
 </svg>
