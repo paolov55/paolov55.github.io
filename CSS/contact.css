@@ -46,6 +46,9 @@
   display: block;
   grid-column: 1;
   width: 100%;
+  font-size: 1rem;
+  color: white;
+  padding: 0px 16px;
 }
 
 .contact-form textarea {
@@ -56,6 +59,9 @@
   width: 100%;
   grid-column: 2;
   grid-row: 2/5;
+  font-size: 1rem;
+  color: white;
+  padding: 8px 16px;
 }
 
 .small {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paolo Vinicios | UI/UX Designer</title>
   <meta name="description" content="Hi, my name is Paolo Vinicios, and this is my portfolio as a UX/UI Designer">
-  <link rel="stylesheet" href="./CSS/style.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
   <link rel="shortcut icon" href="./SVG/Favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,25 +15,21 @@
 
 <body>
   <nav>
-    <a href="#home">
+    <a href="#home" class="smooth-scroll">
       <img src="./SVG/Home.svg" alt="">
       <p>Home</p>
-      <div class="indicator"></div>
     </a>
-    <a href="#about">
+    <a href="#about" class="smooth-scroll">
       <img src="./SVG/About Me.svg" alt="">
       <p>About Me</p>
-      <div class="indicator"></div>
     </a>
-    <a href="#case-studies">
+    <a href="#case-studies" class="smooth-scroll">
       <img src="./SVG/Case Studies.svg" alt="">
       <p>Case Studies</p>
-      <div class="indicator"></div>
     </a>
-    <a href="#projects">
+    <a href="#projects" class="smooth-scroll">
       <img src="./SVG/Projects.svg" alt="">
       <p>Projects</p>
-      <div class="indicator"></div>
     </a>
   </nav>
 
@@ -285,8 +281,9 @@
   </footer>
 
   <script src="home.js"></script>
-  <script src="navbar.js"></script>
   <script src="studies.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="smoothscroll.js"></script>
 
 </body>
 
