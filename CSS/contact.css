@@ -32,7 +32,7 @@
 .contact-form label {
   margin-bottom: 16px;
   color: var(--C1);
-  font-size: 1rem;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
   display: block;
   grid-column: 1;
 }
@@ -46,7 +46,7 @@
   display: block;
   grid-column: 1;
   width: 100%;
-  font-size: 1rem;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
   color: white;
   padding: 0px 16px;
 }
@@ -59,7 +59,7 @@
   width: 100%;
   grid-column: 2;
   grid-row: 2/5;
-  font-size: 1rem;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
   color: white;
   padding: 8px 16px;
 }
@@ -100,7 +100,7 @@ input.website {
 }
 
 .send-contact p {
-  font-size: 1rem;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
   font-weight: 700;
   text-transform: uppercase;
   color: var(--B2);

@@ -1,0 +1,156 @@
+.study-bg {
+  background-color: #010101;
+}
+
+.case-header {
+  position: relative;
+}
+
+.case-header img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  margin-bottom: 200px;
+}
+
+.case-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.case-overlay h1 {
+  color: var(--C6);
+  background-color: var(--C1);
+  padding: 10px 45%;
+  font-size: calc((4 - 1) * 1.2vw + 1rem);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.case-study {
+  max-width: 800px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.case-study h2 {
+  color: var(--C1);
+  font-size: calc((2.8 - 1) * 1.2vw + 1rem);
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+.case-study p {
+  color: var(--C1);
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+.case-study img {
+  margin-bottom: 36px;
+}
+
+.size-1 {
+  color: var(--C1);
+  font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+}
+
+.size-2 {
+  color: var(--C1);
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
+}
+
+.case-contact h1 {
+  color: var(--C1);
+}
+
+.case-contact h2 {
+  color: var(--C5);
+}
+
+.list li {
+  list-style: none;
+  color: var(--C1);
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
+  font-weight: 500;
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 12px;
+}
+
+.list li:last-of-type {
+  margin-bottom: 24px;
+}
+
+.images-grid-1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.images-grid-2 {
+  margin-left: 180px;
+  margin-right: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 40px;
+  gap: 60px;
+}
+
+.images-grid-2 p {
+  max-width: 35ch;
+  font-weight: 500;
+  grid-column: 1;
+  text-align: right;
+  margin-bottom: 20px;
+  justify-self: end;
+}
+
+.images-grid-2 img {
+  max-height: 500px;
+  grid-column: 2;
+  grid-row: 1/5;
+  justify-self: start;
+}
+
+.navbar-transition {
+  transition: background-color 0.4s ease;
+}
+
+.images-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 40px;
+  column-gap: 60px;
+}
+
+.images-grid-3 img {
+  max-height: 600px;
+  grid-column: 1;
+  grid-row: 1/10;
+  justify-self: start;
+}
+
+.images-grid-3 p {
+  grid-column: 2;
+  text-align: left;
+}
+
+.contact-page,
+.footer-page {
+  background-color: var(--C5);
+}

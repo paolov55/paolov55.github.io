@@ -51,7 +51,7 @@
 }
 
 .images .category {
-  font-size: 1rem;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
   font-weight: 600;
   color: var(--C1); /* Cor do texto branco */
 }

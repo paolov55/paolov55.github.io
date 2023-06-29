@@ -27,16 +27,6 @@ nav p {
   color: #ffffff;
 }
 
-.indicator {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #ffffff;
-  transition: width 0.3s ease;
-}
-
 @media (max-width: 900px) {
   nav {
     padding-left: 0px;

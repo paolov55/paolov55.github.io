@@ -90,7 +90,7 @@ h2 {
 }
 
 .skills li {
-  font-size: 1rem;
+  font-size: calc((1 - 1) * 1.2vw + 1rem);
   font-weight: 500;
   color: var(--C1);
   background: var(--B3);
