@@ -121,7 +121,7 @@ input.website {
     font-size: 2rem;
   }
   .contact-form {
-    display: block;
+    grid-template-columns: 2fr 1fr;
   }
   input.website {
     margin-bottom: 28px;
@@ -134,6 +134,10 @@ input.website {
 @media (max-width: 950px) {
   .contact-container {
     margin: 0px 120px 60px 120px;
+  }
+
+  .contact-form {
+    display: block;
   }
 
   @media (max-width: 700px) {
@@ -156,5 +160,10 @@ input.website {
     .contact-container {
       margin: 0px 40px 60px 40px;
     }
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 85%;
   }
 }

@@ -1,0 +1,25 @@
+<svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="19" height="16" fill="#1E1E1E"/>
+<g id="Web" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="3735" transform="translate(-1094 -3530)" fill="white"/>
+<g id="Contact Me">
+<rect id="Rectangle 23" x="-684" y="-275" width="1000" height="333" rx="50" fill="#003366"/>
+<g id="Form-Items">
+<g id="Frame 39">
+<rect x="-20" y="-10" width="112" height="36" rx="18" fill="white"/>
+<g id="Send 1" clip-path="url(#clip1_0_1)">
+<path id="Vector" d="M0 16V0L19 8L0 16ZM1.5 13.675L15.1 8L1.5 2.25V6.45L7.55 8L1.5 9.5V13.675Z" fill="#212121"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="3735" fill="white" transform="translate(-1094 -3530)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="19" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,3 +1,8 @@
+#navbar {
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .study-bg {
   background-color: #010101;
 }
@@ -27,7 +32,8 @@
 .case-overlay h1 {
   color: var(--C6);
   background-color: var(--C1);
-  padding: 10px 45%;
+  width: 100%;
+  padding: 10px;
   font-size: calc((4 - 1) * 1.2vw + 1rem);
   text-align: center;
   margin: 0 auto;
@@ -156,4 +162,77 @@
 
 .first {
   margin-top: 200px;
+}
+
+.contact-page a p {
+  color: var(--C5);
+}
+
+@media (max-width: 1300px) {
+  .images-grid-1 img {
+    max-width: 80%;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .page-study-container {
+    margin: 0px 20px;
+  }
+
+  .images-grid-1 {
+    gap: 20px;
+  }
+
+  .images-grid-2 {
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+  }
+
+  .images-grid-2 p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+  }
+
+  .images-grid-2 img {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    margin-bottom: 20px;
+  }
+
+  .responsive {
+    max-width: 85%;
+  }
+
+  .images-grid-3 {
+    column-gap: 20px;
+  }
+
+  .first {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .images-grid-3 {
+    display: block;
+  }
+
+  .images-grid-3 p {
+    text-align: center;
+  }
+
+  #navbar img {
+    max-width: 24px;
+  }
+
+  #navbar p {
+    font-size: 0.7rem;
+  }
 }

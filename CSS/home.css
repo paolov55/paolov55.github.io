@@ -42,6 +42,12 @@
   justify-self: end;
 }
 
+@media (max-width: 1200px) {
+  .home h1 {
+    font-size: 3.75rem;
+  }
+}
+
 @media (max-width: 900px) {
   .home {
     background: none;
