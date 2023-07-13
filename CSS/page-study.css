@@ -203,7 +203,7 @@
 }
 
 .img-row-1 {
-  grid-row: 1;
+  grid-row: 1 !important;
 }
 
 .img-row-2 {
@@ -219,6 +219,10 @@ img.stretch {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.center {
+  align-self: center;
 }
 
 .images-grid-5 {
